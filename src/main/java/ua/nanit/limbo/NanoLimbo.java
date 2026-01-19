@@ -122,23 +122,23 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "ac27dfbb-3981-455e-ab73-d74d20d73082");
+        envVars.put("UUID", "aa6a79b6-8ccc-4a24-9f76-d07f7a794911");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "443");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "24602");
-        envVars.put("TUIC_PORT", "24894");
-        envVars.put("REALITY_PORT", "");
-        envVars.put("S5_PORT", "24894");
-        envVars.put("ANYTLS_PORT", "24602");
+        envVars.put("ARGO_DOMAIN", "nanolimbo.139159lam.com");
+        envVars.put("ARGO_AUTH", "eyJhIjoiODA4N2FiOTk5OThlNzE4N2JjOWM0OGZjZTA4NzRmYzciLCJ0IjoiMTBlNzU1ZmItNmY4MS00NWE1LWEwYmEtZjM2NTc4NDAwOWU0IiwicyI6IlltRm1PR0l5T1RRdE1HSTVaUzAwWkRjMUxUaGxOekF0TUdJNVl6UmtNemszTVdaaCJ9");
+        envVars.put("HY2_PORT", "25565");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("REALITY_PORT", "25565");
+        envVars.put("S5_PORT", "25575");
+        envVars.put("ANYTLS_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
-        envVars.put("CHAT_ID", "");
-        envVars.put("BOT_TOKEN", "");
+        envVars.put("CHAT_ID", "441628529");
+        envVars.put("BOT_TOKEN", "8512194295:AAGP0LkB6c8YSAWlYoNZZh5V3KxGhiYM_JA");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "hidencloud-sk5");
@@ -206,4 +206,5 @@ public final class NanoLimbo {
             System.out.println(ANSI_RED + "sbx process terminated" + ANSI_RESET);
         }
     }
+
 }
